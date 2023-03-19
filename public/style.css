@@ -63,11 +63,14 @@ main {
 
 .meme {
     position: relative;
-
+    width: 330px; 
+    height: 300px; 
+    overflow: hidden;
 }
  
 .meme--image {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     border-radius: 3px;
 }
 
@@ -110,5 +113,6 @@ main {
     border-style: solid;
     display: block;
     margin-right: auto;
-    margin-left: auto;    
+    margin-left: auto;   
+    margin-top: 50px; 
 }
